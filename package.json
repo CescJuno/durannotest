@@ -4,11 +4,26 @@
   "description": "azure test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CescJuno/durannotest.git"
+  },
+  "dependencies":{
+	  "body-parser":"~1.16.0",
+	  "cookie-parser":"~1.4.3",
+	  "debug":"~2.6.0",
+	  "ejs":"*",
+	  "request":"*",
+	  "express":"~4.14.1",
+	  "jade":"~1.11.0",
+	  "morgan":"~1.7.0",
+	  "querystring":"^0.2.0",
+	  "serve-favicon": "~2.3.2",
+	  "iconv-lite":"*",
+	  "xml2js":"^0.4.17"
   },
   "author": "",
   "license": "ISC",
