@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CescJuno/durannotest.git",
+    "start": "node index",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CescJuno/durannotest.git"
   },
   "dependencies":{
 	  "body-parser":"~1.16.0",
