@@ -39,7 +39,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+//module.exports = app;
 
 var port = process.env.port || 1337;
 //http.createServer(app).listen(port);
