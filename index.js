@@ -1,5 +1,6 @@
 
 var http = require('http');
+/*
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
@@ -20,7 +21,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
-
+*/
 //module.exports = app;
 
 var port = process.env.port || 1337;
