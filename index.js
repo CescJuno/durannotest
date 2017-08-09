@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
  * Module dependencies.
  */
 
-var app = require('./app');
+var app = require('./apps');
 var debug = require('debug')('workspace:server');
 var http = require('http');
 
